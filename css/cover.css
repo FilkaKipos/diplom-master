@@ -52,7 +52,7 @@ body::before {
     position: absolute;
     width: 1550px; /* Ширина капли */
     height: 600px; /* Высота капли */
-    background-image: url('https://cdn-ua.bodo.gift/convert/resize/upload/files/cm-experience/102/101288/images_file/all_all_large-t1541754223-r1w1905h726q90zc1-q75.avif'); /* Путь к вашему изображению */
+    background-image: url('https://images.nplod.ru/gen_images_3/xBzP3AEwB9cuHyUeA5bt4Uu0TXATcFDQ.jpg'); /* Путь к вашему изображению */
     background-size: cover; /* Масштабируем изображение, чтобы оно полностью заполнило каплю */
     animation: pulse 5s infinite alternate; /* Анимация увеличения */
     z-index: 0; /* Устанавливаем z-index для капли, чтобы она была за всем контентом */

@@ -5,8 +5,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: auto;
+    padding-top: 60px; /* Высота хедера */
+    
     background: linear-gradient(to bottom right, #E58634, #A42BD7); /* Фиолетово-оранжевый градиент */
+    flex-direction: column; /* Исправлено для корректного отображения */
 }
 
 .containerr {
@@ -16,7 +19,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 1200px;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 60px; /* Добавлен отступ сверху для учета высоты хедера */
 }
 
 h1 {
@@ -49,18 +52,6 @@ button {
     margin-bottom: 10px;
 }
 
-.button {
-    /* Эти стили остались из предыдущего кода. Не забудьте удалить, если они не нужны. */
-    padding: 10px 20px;
-    background-color: #DC4E41;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-top: 20px; /* Исправлено значение margin-top */
-}
-
 button:hover {
     background-color: #CA4328;
 }
@@ -84,4 +75,11 @@ button:hover {
 .day {
     font-weight: bold;
     color: #4285F4; /* Цвет в стиле Google */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
